@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = os.getenv('DEBUG_STATUS', False)
 
-ALLOWED_HOSTS = ['stayasobak.sytes.net']
+ALLOWED_HOSTS = ['stayasobak.sytes.net', '127.0.0.1']
 
 
 # Application definition
